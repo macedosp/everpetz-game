@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { User } from '../types';
-import { Facebook, Mail } from 'lucide-react';
+import type { User } from '../types';
+import { Facebook } from 'lucide-react';
 
 interface LoginProps {
   onLogin: (user: User) => void;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { PetProfile, PetType, PetSize, PetStage } from '../types';
+import type { PetProfile, PetType, PetSize, PetStage } from '../types';
 import { Dog, Cat, ArrowRight, Check } from 'lucide-react';
 
 interface OnboardingProps {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { PetProfile } from '../types';
+import type { PetProfile } from '../types';
 import { TARGET_EMOJIS, DISTRACTOR_EMOJIS, SUCCESS_MESSAGES, INITIAL_TIME, SCORE_PER_LEVEL } from '../constants';
 import { Play } from 'lucide-react';
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Screen, User, PetProfile } from './types';
+import type { Screen, User, PetProfile } from './types';
 import Login from './components/Login';
 import Onboarding from './components/Onboarding';
 import Game from './components/Game';
@@ -15,7 +15,6 @@ const App: React.FC = () => {
   // Initialize from local storage if available
   useEffect(() => {
     const savedUser = localStorage.getItem('everpetz_user');
-    const savedPet = localStorage.getItem('everpetz_pet');
     
     if (savedUser) {
       setUser(JSON.parse(savedUser));
